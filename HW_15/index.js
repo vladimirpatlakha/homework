@@ -6,15 +6,15 @@ var logger = new event();
 
 logger.on('logIn', function () {
 	var loginTime = new Date ();
-	console.log ('Время входа: ' + loginTime);
+	console.log ('Р’СЂРµРјСЏ РІС…РѕРґР°: ' + loginTime);
 });
 logger.on('someAction', function () {
 	var actionTime = new Date ();
-	console.log ('Время перехода на страницу регистрации: ' + actionTime);
+	console.log ('Р’СЂРµРјСЏ РїРµСЂРµС…РѕРґР° РЅР° СЃС‚СЂР°РЅРёС†Сѓ СЂРµРіРёСЃС‚СЂР°С†РёРё: ' + actionTime);
 });
 logger.on('logOut', function () {
 	var logoutTime = new Date ();
-	console.log ('Время выхода: ' + logoutTime);
+	console.log ('Р’СЂРµРјСЏ РІС‹С…РѕРґР°: ' + logoutTime);
 });
 
 var server = http.createServer(function (req, res) {
