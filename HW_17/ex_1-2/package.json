@@ -1,0 +1,17 @@
+{
+  "name": "HW_17",
+  "version": "1.0.0",
+  "description": "",
+  "main": "_currency.js",
+  "dependencies": {
+    "cli-color": "^1.2.0",
+    "request": "^2.85.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
